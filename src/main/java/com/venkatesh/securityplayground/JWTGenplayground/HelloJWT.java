@@ -29,7 +29,7 @@ public class HelloJWT {
         System.out.println("is token valid?");
         System.out.println(jwtUtils.isTokenValid(jwtToken, userDetails.getUsername()));
 
-        Thread.sleep(30000);
+        //Thread.sleep(30000);
         System.out.println(new Date(System.currentTimeMillis()));
         System.out.println("Is token expired? (after sleep)");
         System.out.println(jwtUtils.isTokenExpired(jwtToken));
